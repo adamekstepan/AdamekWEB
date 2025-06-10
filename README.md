@@ -116,15 +116,15 @@ Upravit
 6. Shrnutí
 Tato backendová část pokrývá:
 
-✅ Správnou architekturu (Entity, DTO, Repository, Service, Controller)
+ Správnou architekturu (Entity, DTO, Repository, Service, Controller)
 
-🔐 Zabezpečení pomocí JWT a session
+ Zabezpečení pomocí JWT a session
 
-✔️ Validaci vstupů a vracení chyb
+ Validaci vstupů a vracení chyb
 
-📝 Logování a monitoring
+ Logování a monitoring
 
-📘 Ručně dokumentované REST API
+ Ručně dokumentované REST API
 
 
 
