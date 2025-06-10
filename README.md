@@ -110,7 +110,7 @@ Authorization: Bearer {token}
 
 ---
 
-## 🧾 Závěr
+##  Závěr
 
 Projekt demonstruje jednu ucelenou, refaktorovanou a plně funkční větev backendové aplikace. Pokrývá:
 
