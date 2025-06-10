@@ -1,65 +1,132 @@
 Dokumentace pro upravenou Část:
-Semestrální práce – Backend pro správu produktů restaurací
-Cíl práce
-Cílem bylo upravit a refaktorovat stávající backendový projekt tak, aby odpovídal principům enterprise aplikací. Byla vytvořena a rozšířena funkční větev pro správu produktů administrátorem.
-Architektura systému
-Aplikace je rozdělena do následujících vrstev:
-•	Entity: ProductEntity (reprezentace dat z databáze)
-•	DTO: ProductDTO (transport dat mezi vrstvami)
-•	Repository: ProductRepository (přístup k databázi)
-•	Service: ProductService (business logika, validace, logování)
-•	Controller: ProductController (zpracování žádostí z formuláře a API)
-•	Middleware: AuthMiddleware (kontrola přihlášení)
-•	Utils: Logger, ProductValidator
-Použito je čisté PHP bez frameworku, s ruční implementací dependency injection přes konstruktory.
-Bezpečnostní mechanismy
-•	Autentizace JWT: /api/login_api.php poskytuje token po přihlášení
-•	Session-based ochrana: GUI (admin_products.php) chráněno pomocí AuthMiddleware
-•	Role-based logika: připraveno pro další role (admin, editor) podle struktury DB
-Validace a zpětná vazba
-•	Použita vlastní třída ProductValidator
-•	Hlášení chybných vstupů se vrací jako pole a zobrazují se na frontendu
-•	V API jsou odpovědi ve formátu JSON, např.:
+Úvod
+Tato část popisuje úpravy backendu systému pro správu restaurací a pokrmů. Administrátor má plný přístup k veškeré funkčnosti. Tato dokumentace slouží k pochopení implementace a ovládání systému z pohledu vývojáře i správce.
+
+1. Architektura systému
+Aplikace je rozdělena do vrstev podle principů enterprise vývoje:
+
+Entity
+ProductEntity – reprezentuje data z databáze
+
+DTO (Data Transfer Object)
+ProductDTO – přenáší data mezi vrstvami
+
+Repository
+ProductRepository – zajišťuje přístup k databázi
+
+Service
+ProductService – obsahuje business logiku, validaci a logování
+
+Controller
+ProductController – zpracovává požadavky z formulářů nebo API
+
+Middleware
+AuthMiddleware – chrání části systému před neoprávněným přístupem
+
+Utilitní třídy
+Logger, ProductValidator – pomocné třídy pro logování a validaci
+
+Použito je čisté PHP bez frameworku s ruční správou závislostí pomocí konstruktorů.
+
+2. Bezpečnostní mechanismy
+JWT Autentizace
+
+Přihlášení přes /api/login_api.php vrací token
+
+Token je vyžadován pro API volání
+
+Session-based ochrana
+
+Webová část (např. admin_products.php) je chráněna middlewarem
+
+Role-based logika
+
+Backend připraven na role: admin, editor, user
+
+Oprávnění určena dle dat v databázi
+
+3. Validace vstupů
+Používá se vlastní validátor ProductValidator
+
+V případě chyb se vrací pole chyb, které jsou zobrazeny na frontendu
+
+Příklad chybové odpovědi z API:
+
+json
+Zkopírovat
+Upravit
 {
   "errors": ["Musíš vybrat platnou restauraci."]
 }
-Logování a monitoring
-•	Logger.php zapisuje do backend/logs/app.log
-•	Podporuje ústupně info, warning, error
-•	Všechny klíčové akce (přidání, validace, mazání) jsou logovány
-•	Implementován health_check.php endpoint:
+4. Logování a monitoring
+Logger zapisuje do souboru backend/logs/app.log
+
+Podporovány úrovně: info, warning, error
+
+Logují se důležité akce: přidání, smazání, validace
+
+K dispozici je endpoint pro kontrolu stavu aplikace:
+
+json
+Zkopírovat
+Upravit
+GET /health_check.php
 {
   "status": "ok",
   "timestamp": 1749586231
 }
-Ukázka API (ruční dokumentace)
-POST /api/login_api.php
-Tělo:
+5. Ukázka API volání
+POST /api/login_api.php – přihlášení
+Tělo požadavku:
+
+json
+Zkopírovat
+Upravit
 {
   "username": "admin2",
   "password": "tajneheslo"
 }
 Odpověď:
+
+json
+Zkopírovat
+Upravit
 {
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
 }
-GET /api/products?route=products
-Hlavicka: Authorization: Bearer {token}
-POST /api/products?route=products
-JSON tělo:
+GET /api/products?route=products – získání produktů
+Hlavička:
+
+css
+Zkopírovat
+Upravit
+Authorization: Bearer {token}
+POST /api/products?route=products – přidání produktu
+Tělo požadavku:
+
+json
+Zkopírovat
+Upravit
 {
   "name": "Burger",
   "price": 149,
   "image": "burger.jpg",
   "restaurant_id": 1
 }
-Závěr
-Projekt demonstruje jednu ucelenou, refaktorovanou a plně funkční v v\u011tev aplikace. Pokrývá:
-•	Správnou architekturu
-•	Bezpečnost (JWT, session)
-•	Validaci a zpětnou vazbu
-•	Logování a monitoring
-•	Dokumentované API
+6. Shrnutí
+Tato backendová část pokrývá:
+
+✅ Správnou architekturu (Entity, DTO, Repository, Service, Controller)
+
+🔐 Zabezpečení pomocí JWT a session
+
+✔️ Validaci vstupů a vracení chyb
+
+📝 Logování a monitoring
+
+📘 Ručně dokumentované REST API
+
+
 
 
 
