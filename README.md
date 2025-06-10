@@ -1,13 +1,13 @@
 Dokumentace pro upravenou Část:
-# 📦 Semestrální práce – Backend pro správu produktů restaurací
+#  Semestrální práce – Backend pro správu produktů restaurací
 
-## 🎯 Cíl práce
+##  Cíl práce
 
 Cílem bylo upravit a refaktorovat stávající backendový projekt tak, aby odpovídal principům **enterprise aplikací**. Byla vytvořena a rozšířena funkční větev pro **správu produktů administrátorem**.
 
 ---
 
-## 🏗 Architektura systému
+##  Architektura systému
 
 Aplikace je rozdělena do následujících vrstev:
 
@@ -19,11 +19,11 @@ Aplikace je rozdělena do následujících vrstev:
 - **Middleware**: `AuthMiddleware` – kontrola přihlášení  
 - **Utils**: `Logger`, `ProductValidator`
 
-> ✅ Použito čisté PHP bez frameworku, s ruční implementací **dependency injection** přes konstruktory.
+>  Použito čisté PHP bez frameworku, s ruční implementací **dependency injection** přes konstruktory.
 
 ---
 
-## 🔐 Bezpečnostní mechanismy
+##  Bezpečnostní mechanismy
 
 - **JWT autentizace** – `/api/login_api.php` poskytuje token po přihlášení  
 - **Session-based ochrana** – GUI (`admin_products.php`) chráněno pomocí `AuthMiddleware`  
@@ -31,7 +31,7 @@ Aplikace je rozdělena do následujících vrstev:
 
 ---
 
-## ✅ Validace a zpětná vazba
+##  Validace a zpětná vazba
 
 - **Vlastní validátor**: `ProductValidator`  
 - Chybné vstupy vráceny jako pole a zobrazeny na frontendu  
@@ -45,7 +45,7 @@ Aplikace je rozdělena do následujících vrstev:
 
 ---
 
-## 📄 Logování a monitoring
+##  Logování a monitoring
 
 - **Logger** (`Logger.php`) zapisuje do `backend/logs/app.log`  
 - Podporuje úrovně: `info`, `warning`, `error`  
@@ -62,7 +62,7 @@ GET /health_check.php
 
 ---
 
-## 🔌 Ukázka API
+##  Ukázka API
 
 ### POST `/api/login_api.php`
 
@@ -114,11 +114,11 @@ Authorization: Bearer {token}
 
 Projekt demonstruje jednu ucelenou, refaktorovanou a plně funkční větev backendové aplikace. Pokrývá:
 
-- ✅ Správnou architekturu (Entity, DTO, Repository, Service, Controller)
-- 🔐 Bezpečnost (JWT, session)
-- ✔️ Validaci a zpětnou vazbu
-- 📝 Logování a monitoring
-- 📘 Dokumentované API
+-  Správnou architekturu (Entity, DTO, Repository, Service, Controller)
+-  Bezpečnost (JWT, session)
+-  Validaci a zpětnou vazbu
+-  Logování a monitoring
+-  Dokumentované API
 
 
 
