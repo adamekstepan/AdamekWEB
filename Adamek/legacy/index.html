@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Complete Responsive Pizza Shop Website Design</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+   <section class="flex">
+
+      <a href="#home" class="logo">Dobrožrout.</a>
+
+      <nav class="navbar">
+         <a href="#home">Domů</a>
+         <a href="#about">O nás</a>
+         <a href="#menu">Nabídka</a>
+         <a href="#order">Objednat</a>
+         <a href="#faq">Otázky</a>
+      </nav>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="order-btn" class="fas fa-box"></div>
+         <div id="cart-btn" class="fas fa-shopping-cart"><span>(3)</span></div>
+      </div>
+
+   </section>
+
+</header>
+
+<!-- header section ends -->
+
+<div class="user-account">
+
+   <section>
+
+      <div id="close-account"><span>zavřít</span></div>
+
+      <div class="user">
+         <p><span>momentálně nejste přihlášeni!</span></p>
+      </div>
+
+      <div class="display-orders">
+         <p>Zeleninové rizoto <span>( CZK119,- x 2 )</span></p>
+         <p>Jablečný závin <span>( CZK59,- x 1 )</span></p>
+         <p>Špagety bolognese <span>( CZK149,- x 1 )</span></p>
+      </div>
+
+      <div class="flex">
+
+         <form action="" method="post">
+            <h3>Přihlaš se</h3>
+            <input type="email" name="email" required class="box" placeholder="zadejte email" maxlength="50">
+            <input type="password" name="pass" required class="box" placeholder="zadejte heslo" maxlength="20">
+            <input type="submit" value="přihlásit" name="login" class="btn">
+         </form>
+
+         <form action="" method="post">
+            <h3>Registruj se</h3>
+            <input type="text" name="name" required class="box" placeholder="zadejte jméno" maxlength="20">
+            <input type="email" name="email" required class="box" placeholder="zadejte email" maxlength="50">
+            <input type="password" name="pass" required class="box" placeholder="zadejte heslo" maxlength="20">
+            <input type="password" name="cpass" required class="box" placeholder="znovu helso" maxlength="20">
+            <input type="submit" value="registrovat" name="register" class="btn">
+         </form>
+
+      </div>
+
+   </section>
+
+</div>
+
+<div class="my-orders">
+
+   <section>
+
+      <div id="close-orders"><span>zavřít</span></div>
+
+      <h3 class="title">moje objednávky</h3>
+
+      <div class="box">
+         <p><b>vytvořeno:</b><span> 05/05/2024</span> </p>
+         <p><b>objednávka:</b><span> Zeleninové rizoto CZK119,- x 2, Jablečný závin CZK59,- x 1, Špagety bolognese CZK 149, x 1</p>
+         <p><b>jméno:</b><span> Petr Novák</span> </p>
+         <p><b>adresa:</b><span> Tovární 1395, 537 01 Chrudim 1</span></p>
+         <p><b>tel. číslo:</b><span> 325456789</span></p>
+         <p><b>zbůsob platby:</b><span> hotovostně</span></p>
+         <p><b>celková cena:</b><span> CZK446,-</span></p>
+         <p><b>status objednávky:</b><span style="color: var(--red);"> nevyřízená</span> </p>
+      </div>
+
+      <div class="box">
+         <p><b>vytvořeno:</b><span> 05/05/2024</span> </p>
+         <p><b>objednávka:</b><span> Zeleninové rizoto CZK119,- x 2, Jablečný závin CZK59,- x 1, Špagety bolognese CZK 149, x 1</p>
+         <p><b>jméno:</b><span> Petr Novák</span> </p>
+         <p><b>adresa:</b><span> Tovární 1395, 537 01 Chrudim 1</span></p>
+         <p><b>tel. číslo:</b><span> 325456789</span></p>
+         <p><b>zbůsob platby:</b><span> hotovostně</span></p>
+         <p><b>celková cena:</b><span> CZK449,-</span></p>
+         <p><b>status objednávky:</b><span style="color: var(--red);"> nevyřízená</span> </p>
+      </div>
+
+   </section>
+
+</div>
+
+<div class="shopping-cart">
+
+   <section>
+
+      <div id="close-cart"><span>zavřít</span></div>
+
+      <div class="box">
+         <a href="#" class="fas fa-times"></a>
+         <img src="images/rizoto.png" alt="">
+         <div class="content">
+            <p>pizza 1 <span>(CZK119,- x 2)</span></p>
+            <form action="" method="post">
+               <input type="number" class="qty" name="qty" min="1" value="2" max="100">
+               <button type="submit" class="fas fa-edit" name="update_qty"></button>
+            </form>
+         </div>
+      </div>
+
+      <div class="box">
+         <a href="#" class="fas fa-times"></a>
+         <img src="images/strudl.jpg" alt="">
+         <div class="content">
+            <p>pizza 4 <span>(CZK59,- x 1)</span></p>
+            <form action="" method="post">
+               <input type="number" class="qty" name="qty" min="1" value="1" max="100">
+               <button type="submit" class="fas fa-edit" name="update_qty"></button>
+            </form>
+         </div>
+      </div>
+
+      <div class="box">
+         <a href="#" class="fas fa-times"></a>
+         <img src="images/bolognese.jpg" alt="">
+         <div class="content">
+            <p>pizza 4 <span>(CZK149,- x 1)</span></p>
+            <form action="" method="post">
+               <input type="number" class="qty" name="qty" min="1" value="1" max="100">
+               <button type="submit" class="fas fa-edit" name="update_qty"></button>
+            </form>
+         </div>
+      </div>
+
+      <a href="#order" class="btn">objednat</a>
+
+   </section>
+
+</div>
+
+<div class="home-bg">
+
+   <section class="home" id="home">
+
+      <div class="slide-container">
+
+         <div class="slide active">
+            <div class="image">
+               <img src="images/rizoto.png" alt="">
+            </div>
+            <div class="content">
+               <h2>Doporučujeme</h2>
+               <h3>Zeleninové rizoto</h3>
+               <div class="fas fa-angle-left" onclick="prev()"></div>
+               <div class="fas fa-angle-right" onclick="next()"></div>
+            </div>
+         </div>
+
+         <div class="slide">
+            <div class="image">
+               <img src="images/pizza.png" alt="">
+            </div>
+            <div class="content">
+               <h2>Doporučujeme</h2>
+               <h3>Rajčatová pizza</h3>
+               <div class="fas fa-angle-left" onclick="prev()"></div>
+               <div class="fas fa-angle-right" onclick="next()"></div>
+            </div>
+         </div>
+
+         <div class="slide">
+            <div class="image">
+               <img src="images/steak.png" alt="">
+            </div>
+            <div class="content">
+               <h2>Doporučujeme</h2>
+               <h3>Steak se zeleninou</h3>
+               <div class="fas fa-angle-left" onclick="prev()"></div>
+               <div class="fas fa-angle-right" onclick="next()"></div>
+            </div>
+         </div>
+
+      </div>
+
+   </section>
+
+</div>
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+   <h1 class="heading">o nás</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/onas1.jpg" alt="">
+         <h3>pečlivě připravováno</h3>
+         <p>Kvalitní příprava jídla začíná výběrem čerstvých a kvalitních surovin.
+            Používání správných kuchařských technik.
+            Kvalitní příprava jídla zahrnuje pečlivou pozornost k detailům, jako je časování jednotlivých kroků a estetická úprava talíře, což celkově zlepšuje zážitek z jídla.
+         </p>
+         <a href="#menu" class="btn">nabídka</a>
+      </div>
+
+      <div class="box">
+         <img src="images/onas3.jpg" alt="">
+         <h3>sdílej s přáteli</h3>
+         <p>Společné jídlo podporuje pocit sounáležitosti a sdílené zážitky, které prohlubují přátelství. 
+            Během společného jídla lze ochutnat různé pokrmy a tím poznávat nové kultury a tradice. 
+            Sdílení jídla s přáteli přináší radost a uspokojení.</p>
+         <a href="#menu" class="btn">nabídka</a>
+      </div>
+
+      <div class="box">
+         <img src="images/onas2.png" alt="">
+         <h3>rychlé doručení</h3>
+         <p>Rychlé doručení jídla šetří čas.
+            Efektivní doručovací služby zajišťují, že jídlo dorazí čerstvé a v optimální teplotě.
+            Rychlé doručení jídla poskytuje pohodlí.
+         </p>
+         <a href="#menu" class="btn">nabídka</a>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- menu section starts  -->
+
+<section id="menu" class="menu">
+
+   <h1 class="heading">nabídka</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="price">CZK<span>189</span>,-</div>
+         <img src="images/burger.jpg" alt="burger">
+         <div class="name">Cheeseburger s pikantní omačkou</div>
+         <form action="" method="post">
+            <input type="number" min="1" max="100" value="1" class="qty" name="qty">
+            <input type="submit" value="přidat do košíku" name="add_to_cart" class="btn">
+         </form>
+      </div>
+
+      <div class="box">
+         <div class="price">CZK<span>119</span>,-</div>
+         <img src="images/rizoto.png" alt="">
+         <div class="name">Zeleninové rizoto</div>
+         <form action="" method="post">
+            <input type="number" min="1" max="100" value="1" class="qty" name="qty">
+            <input type="submit" value="přidat do košíku" name="add_to_cart" class="btn">
+         </form>
+      </div>
+
+      <div class="box">
+         <div class="price">CZK<span>129</span>,-</div>
+         <img src="images/pizza.png" alt="">
+         <div class="name">Rajčatová pizza</div>
+         <form action="" method="post">
+            <input type="number" min="1" max="100" value="1" class="qty" name="qty">
+            <input type="submit" value="přidat do košíku" name="add_to_cart" class="btn">
+         </form>
+      </div>
+
+      <div class="box">
+         <div class="price">CZK<span>79</span>,-</div>
+         <img src="images/churros.jpg" alt="">
+         <div class="name">Churros s čokoládou</div>
+         <form action="" method="post">
+            <input type="number" min="1" max="100" value="1" class="qty" name="qty">
+            <input type="submit" value="přidat do košíku" name="add_to_cart" class="btn">
+         </form>
+      </div>
+
+      <div class="box">
+         <div class="price">CZK<span>219</span>,-</div>
+         <img src="images/steak.png" alt="">
+         <div class="name">Steak se zeleninou</div>
+         <form action="" method="post">
+            <input type="number" min="1" max="100" value="1" class="qty" name="qty">
+            <input type="submit" value="přidat do košíku" name="add_to_cart" class="btn">
+         </form>
+      </div>
+
+      <div class="box">
+         <div class="price">CZK<span>179</span>,-</div>
+         <img src="images/tacos.jpg" alt="">
+         <div class="name">Mexické tacos</div>
+         <form action="" method="post">
+            <input type="number" min="1" max="100" value="1" class="qty" name="qty">
+            <input type="submit" value="přidat do košíku" name="add_to_cart" class="btn">
+         </form>
+      </div>
+
+      <div class="box">
+         <div class="price">CZK<span>149</span>,-</div>
+         <img src="images/bolognese.jpg" alt="">
+         <div class="name">Špagety bolognese</div>
+         <form action="" method="post">
+            <input type="number" min="1" max="100" value="1" class="qty" name="qty">
+            <input type="submit" value="přidat do košíku" name="add_to_cart" class="btn">
+         </form>
+      </div>
+
+      <div class="box">
+         <div class="price">CZK<span>169</span>,-</div>
+         <img src="images/knedlo.jpg" alt="">
+         <div class="name">Vepřové maso, knedlík a zelí</div>
+         <form action="" method="post">
+            <input type="number" min="1" max="100" value="1" class="qty" name="qty">
+            <input type="submit" value="přidat do košíku" name="add_to_cart" class="btn">
+         </form>
+      </div>
+
+      <div class="box">
+         <div class="price">CZK<span>59</span>,-</div>
+         <img src="images/strudl.jpg" alt="">
+         <div class="name">Jablečný závin</div>
+         <form action="" method="post">
+            <input type="number" min="1" max="100" value="1" class="qty" name="qty">
+            <input type="submit" value="přidat do košíku" name="add_to_cart" class="btn">
+         </form>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- menu section ends -->
+
+<!-- order section starts  -->
+
+<section class="order" id="order">
+
+   <h1 class="heading">objednat</h1>
+
+   <form action="" method="post">
+
+      <div class="display-orders">
+         <p>Zeleninové rizoto <span>( CZK119,- x 2 )</span></p>
+         <p>Jablečný závin <span>( CZK59,- x 1 )</span></p>
+         <p>Špagety bolognese <span>( CZK149,- x 1 )</span></p>
+      </div>
+
+      <div class="flex">
+         <div class="inputBox">
+            <span>Jméno: </span>
+            <input type="text" name="name" class="box" required placeholder="zadejte Vaše jméno" maxlength="20">
+         </div>
+         <div class="inputBox">
+            <span>Telefonní číslo: </span>
+            <input type="number" name="number" class="box" required placeholder="Zadejte Vaše číslo" min="0">
+         </div>
+         <div class="inputBox">
+            <span>Platební metoda: </span>
+            <select name="method" class="box">
+               <option value="cash on delivery">dobírka</option>
+               <option value="credit card">kreditní karta</option>
+               <option value="paytm">platba kartou</option>
+            </select>
+         </div>
+         <div class="inputBox">
+            <span>Město: </span>
+            <input type="text" name="flat" class="box" required placeholder="název města/obce" maxlength="50">
+         </div>
+         <div class="inputBox">
+            <span>Ulice: </span>
+            <input type="text" name="street" class="box" required placeholder="název ulice" maxlength="50">
+         </div>
+         <div class="inputBox">
+            <span>Číslo popisné: </span>
+            <input type="number" name="pin_code" class="box" required placeholder="číslo popísné" min="0">
+         </div>
+      </div>
+
+      <input type="submit" value="objednat" class="btn" name="order">
+
+   </form>
+
+</section>
+
+<!-- order section ends -->
+
+<!-- faq section starts  -->
+
+<section class="faq" id="faq">
+
+   <h1 class="heading">Časté otázky</h1>
+
+   <div class="accordion-container">
+
+      <div class="accordion active">
+         <div class="accordion-heading">
+            <span>Jak dlouho trvá dovoz jídla?</span>
+            <i class="fas fa-angle-down"></i>
+         </div>
+         <p class="accrodion-content">
+            Doba doručení jídla se může lišit v závislosti na několika faktorech, jako je vzdálenost mezi restaurací a místem doručení, aktuální provoz na silnicích, čas doručení (např. večer bývá větší poptávka), a také efektivita samotné doručovací služby. Obvykle se většina objednávek snaží doručit do 30 až 60 minut od potvrzení objednávky, ale může se lišit podle konkrétních okolností.
+         </p>
+      </div>
+
+      <div class="accordion">
+         <div class="accordion-heading">
+            <span>Jak aplikace funguje?</span>
+            <i class="fas fa-angle-down"></i>
+         </div>
+         <p class="accrodion-content">
+            Uživatel si prostřednictvím aplikace vybere pokrm, který si přeje objednat.
+            Poté, co uživatel vybere jídlo, provede objednávku přes aplikaci. Může si vybrat způsob platby a zadat adresu doručení.
+            Restaurace nebo dodavatel dostane objednávku prostřednictvím aplikace a potvrdí ji.
+            Restaurace připraví jídlo a doručovací služba se postará o jeho doručení na zadanou adresu.
+            Přijetí objednávky uživatelem.
+         </p>
+      </div>
+
+      <div class="accordion">
+         <div class="accordion-heading">
+            <span>Jaké podniky jsou v nabídce?</span>
+            <i class="fas fa-angle-down"></i>
+         </div>
+         <p class="accrodion-content">
+            Nabízíme širokou škálu pokrmu, z těch nejkvalitnějších surovin. V nabídce jsou velmi cenněné a kvalitní podniky s výbornou přípravou pokrmů.
+         </p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- faq section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <i class="fas fa-phone"></i>
+         <h3>Telefonní číslo</h3>
+         <p>123 456 789</p>
+         <p>987 654 321</p>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-clock"></i>
+         <h3>čas dovážky</h3>
+         <p>6:00 - 1:00</p>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-map-marker-alt"></i>
+         <h3>sídlo</h3>
+         <p>Rooseveltova 47, 537 01 Chrudim 1</p>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-envelope"></i>
+         <h3>email</h3>
+         <p>dobro.zrout@seznam.cz</p>
+         <p>dobrozrout@gmail.com</p>
+      </div>
+
+   </div>
+
+   <div class="credit">
+      2024<span> Štěpán Adámek</span> 
+   </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

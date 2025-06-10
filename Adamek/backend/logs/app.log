@@ -1,0 +1,428 @@
+[2025-06-10 17:32:37] [INFO] Zkouška zápisu do logu
+[2025-06-10 17:41:42] [INFO] Zkouška zápisu do logu
+[2025-06-10 17:41:43] [INFO] Zkouška zápisu do logu
+[2025-06-10 17:41:43] [INFO] Zkouška zápisu do logu
+[2025-06-10 17:41:44] [INFO] Zkouška zápisu do logu
+[2025-06-10 17:41:44] [INFO] Zkouška zápisu do logu
+[2025-06-10 17:41:44] [INFO] Zkouška zápisu do logu
+[2025-06-10 17:41:44] [INFO] Zkouška zápisu do logu
+[2025-06-10 17:41:44] [INFO] Zkouška zápisu do logu
+[2025-06-10 18:03:52] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:03:54] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:05:48] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:06:11] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:09:51] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:11:49] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:12:00] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:12:00] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:12:00] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 18:12:00] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 18:12:00] [INFO] DEBUG: DTO data: {"name":"Pepa","price":159,"image":"knedlo.jpg"}
+[2025-06-10 18:12:00] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 18:12:00] [INFO] Vytvořen produkt: Pepa
+[2025-06-10 18:14:38] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:14:38] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:14:38] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 18:14:38] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 18:14:38] [INFO] DEBUG: DTO data: {"name":"Pepa","price":159,"image":"knedlo.jpg"}
+[2025-06-10 18:14:38] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 18:14:38] [INFO] Vytvořen produkt: Pepa
+[2025-06-10 18:15:37] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:15:37] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:15:37] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 18:15:37] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 18:15:37] [INFO] DEBUG: DTO data: {"name":"Pepa","price":159,"image":"knedlo.jpg"}
+[2025-06-10 18:15:37] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 18:15:37] [INFO] Vytvořen produkt: Pepa
+[2025-06-10 18:15:53] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:15:53] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:15:53] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 18:15:53] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 18:15:53] [INFO] DEBUG: DTO data: {"name":"Bramborak","price":1596,"image":"churros.jpg"}
+[2025-06-10 18:15:53] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 18:15:53] [INFO] Vytvořen produkt: Bramborak
+[2025-06-10 18:16:41] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:16:41] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:16:41] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 18:16:41] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 18:16:41] [INFO] DEBUG: DTO data: {"name":"Bramborak","price":1596,"image":"churros.jpg"}
+[2025-06-10 18:16:41] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 18:16:41] [INFO] Vytvořen produkt: Bramborak
+[2025-06-10 18:16:47] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:16:47] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:16:47] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 18:16:47] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 18:16:47] [INFO] DEBUG: DTO data: {"name":"Bramborak","price":1596,"image":"churros.jpg"}
+[2025-06-10 18:16:47] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 18:16:47] [INFO] Vytvořen produkt: Bramborak
+[2025-06-10 18:17:14] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:17:14] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:17:14] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 18:17:14] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 18:17:14] [INFO] DEBUG: DTO data: {"name":"Bramborak","price":1596,"image":"churros.jpg"}
+[2025-06-10 18:17:14] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 18:17:14] [INFO] Vytvořen produkt: Bramborak
+[2025-06-10 18:17:33] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:17:33] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:17:33] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 18:17:33] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 18:17:33] [INFO] DEBUG: DTO data: {"name":"admin","price":55,"image":"onas1.jpg"}
+[2025-06-10 18:17:33] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 18:17:33] [INFO] Vytvořen produkt: admin
+[2025-06-10 18:20:39] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:20:41] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:20:48] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:20:48] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:20:48] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 18:20:48] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 18:20:48] [INFO] DEBUG: DTO data: {"name":"admin","price":59,"image":"knedlo.jpg"}
+[2025-06-10 18:20:48] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 18:20:48] [INFO] Vytvořen produkt: admin
+[2025-06-10 18:21:01] [INFO] Zkouška zápisu do logu
+[2025-06-10 18:21:02] [INFO] Zkouška zápisu do logu
+[2025-06-10 18:21:59] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:08] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:08] [INFO] DEBUG: Detekováno mazání produktu s ID: 3
+[2025-06-10 18:22:08] [INFO] DEBUG: deleteProduct spuštěno s ID: 3
+[2025-06-10 18:22:08] [INFO] Smazán produkt ID: 3
+[2025-06-10 18:22:08] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:10] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:10] [INFO] DEBUG: Detekováno mazání produktu s ID: 4
+[2025-06-10 18:22:10] [INFO] DEBUG: deleteProduct spuštěno s ID: 4
+[2025-06-10 18:22:10] [INFO] Smazán produkt ID: 4
+[2025-06-10 18:22:10] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:11] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:11] [INFO] DEBUG: Detekováno mazání produktu s ID: 5
+[2025-06-10 18:22:11] [INFO] DEBUG: deleteProduct spuštěno s ID: 5
+[2025-06-10 18:22:11] [INFO] Smazán produkt ID: 5
+[2025-06-10 18:22:11] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:13] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:13] [INFO] DEBUG: Detekováno mazání produktu s ID: 6
+[2025-06-10 18:22:13] [INFO] DEBUG: deleteProduct spuštěno s ID: 6
+[2025-06-10 18:22:13] [INFO] Smazán produkt ID: 6
+[2025-06-10 18:22:13] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:21] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:21] [INFO] DEBUG: Detekováno mazání produktu s ID: 8
+[2025-06-10 18:22:21] [INFO] DEBUG: deleteProduct spuštěno s ID: 8
+[2025-06-10 18:22:21] [INFO] Smazán produkt ID: 8
+[2025-06-10 18:22:21] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:23] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:23] [INFO] DEBUG: Detekováno mazání produktu s ID: 9
+[2025-06-10 18:22:23] [INFO] DEBUG: deleteProduct spuštěno s ID: 9
+[2025-06-10 18:22:23] [INFO] Smazán produkt ID: 9
+[2025-06-10 18:22:23] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:24] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:24] [INFO] DEBUG: Detekováno mazání produktu s ID: 20
+[2025-06-10 18:22:24] [INFO] DEBUG: deleteProduct spuštěno s ID: 20
+[2025-06-10 18:22:24] [INFO] Smazán produkt ID: 20
+[2025-06-10 18:22:25] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:26] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:26] [INFO] DEBUG: Detekováno mazání produktu s ID: 21
+[2025-06-10 18:22:26] [INFO] DEBUG: deleteProduct spuštěno s ID: 21
+[2025-06-10 18:22:26] [INFO] Smazán produkt ID: 21
+[2025-06-10 18:22:26] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:28] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:28] [INFO] DEBUG: Detekováno mazání produktu s ID: 24
+[2025-06-10 18:22:28] [INFO] DEBUG: deleteProduct spuštěno s ID: 24
+[2025-06-10 18:22:28] [INFO] Smazán produkt ID: 24
+[2025-06-10 18:22:28] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:30] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:30] [INFO] DEBUG: Detekováno mazání produktu s ID: 32
+[2025-06-10 18:22:30] [INFO] DEBUG: deleteProduct spuštěno s ID: 32
+[2025-06-10 18:22:30] [INFO] Smazán produkt ID: 32
+[2025-06-10 18:22:30] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:31] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:31] [INFO] DEBUG: Detekováno mazání produktu s ID: 38
+[2025-06-10 18:22:31] [INFO] DEBUG: deleteProduct spuštěno s ID: 38
+[2025-06-10 18:22:31] [INFO] Smazán produkt ID: 38
+[2025-06-10 18:22:31] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:33] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:33] [INFO] DEBUG: Detekováno mazání produktu s ID: 39
+[2025-06-10 18:22:33] [INFO] DEBUG: deleteProduct spuštěno s ID: 39
+[2025-06-10 18:22:33] [INFO] Smazán produkt ID: 39
+[2025-06-10 18:22:33] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:35] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:35] [INFO] DEBUG: Detekováno mazání produktu s ID: 42
+[2025-06-10 18:22:35] [INFO] DEBUG: deleteProduct spuštěno s ID: 42
+[2025-06-10 18:22:35] [INFO] Smazán produkt ID: 42
+[2025-06-10 18:22:35] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:37] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:37] [INFO] DEBUG: Detekováno mazání produktu s ID: 44
+[2025-06-10 18:22:37] [INFO] DEBUG: deleteProduct spuštěno s ID: 44
+[2025-06-10 18:22:37] [INFO] Smazán produkt ID: 44
+[2025-06-10 18:22:37] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:38] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:38] [INFO] DEBUG: Detekováno mazání produktu s ID: 45
+[2025-06-10 18:22:38] [INFO] DEBUG: deleteProduct spuštěno s ID: 45
+[2025-06-10 18:22:38] [INFO] Smazán produkt ID: 45
+[2025-06-10 18:22:38] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:40] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:40] [INFO] DEBUG: Detekováno mazání produktu s ID: 46
+[2025-06-10 18:22:40] [INFO] DEBUG: deleteProduct spuštěno s ID: 46
+[2025-06-10 18:22:40] [INFO] Smazán produkt ID: 46
+[2025-06-10 18:22:40] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:41] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:41] [INFO] DEBUG: Detekováno mazání produktu s ID: 52
+[2025-06-10 18:22:41] [INFO] DEBUG: deleteProduct spuštěno s ID: 52
+[2025-06-10 18:22:41] [INFO] Smazán produkt ID: 52
+[2025-06-10 18:22:41] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:43] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:43] [INFO] DEBUG: Detekováno mazání produktu s ID: 53
+[2025-06-10 18:22:43] [INFO] DEBUG: deleteProduct spuštěno s ID: 53
+[2025-06-10 18:22:43] [INFO] Smazán produkt ID: 53
+[2025-06-10 18:22:43] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:45] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:45] [INFO] DEBUG: Detekováno mazání produktu s ID: 56
+[2025-06-10 18:22:45] [INFO] DEBUG: deleteProduct spuštěno s ID: 56
+[2025-06-10 18:22:45] [INFO] Smazán produkt ID: 56
+[2025-06-10 18:22:45] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:46] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:46] [INFO] DEBUG: Detekováno mazání produktu s ID: 66
+[2025-06-10 18:22:46] [INFO] DEBUG: deleteProduct spuštěno s ID: 66
+[2025-06-10 18:22:46] [INFO] Smazán produkt ID: 66
+[2025-06-10 18:22:46] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:48] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:48] [INFO] DEBUG: Detekováno mazání produktu s ID: 75
+[2025-06-10 18:22:48] [INFO] DEBUG: deleteProduct spuštěno s ID: 75
+[2025-06-10 18:22:48] [INFO] Smazán produkt ID: 75
+[2025-06-10 18:22:48] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:53] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:22:53] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:22:53] [INFO] DEBUG: Výsledek validace: ["N\u00e1zev mus\u00ed m\u00edt alespo\u0148 3 znaky."]
+[2025-06-10 18:22:57] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:23:07] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:23:07] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:23:07] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 18:23:07] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 18:23:07] [INFO] DEBUG: DTO data: {"name":"Gulas","price":55,"image":"bolognese.jpg"}
+[2025-06-10 18:23:07] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 18:23:07] [INFO] Vytvořen produkt: Gulas
+[2025-06-10 18:24:31] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:24:42] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:24:42] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:24:42] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 18:24:42] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 18:24:42] [INFO] DEBUG: DTO data: {"name":"Kndelo","price":159,"image":"churros.jpg"}
+[2025-06-10 18:24:42] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 18:24:42] [INFO] Vytvořen produkt: Kndelo
+[2025-06-10 18:26:12] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:26:12] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:26:12] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 18:26:12] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 18:26:12] [INFO] DEBUG: DTO data: {"name":"Kndelo","price":159,"image":"churros.jpg"}
+[2025-06-10 18:26:12] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 18:26:12] [INFO] Vytvořen produkt: Kndelo
+[2025-06-10 18:26:17] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:26:19] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:26:24] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:26:24] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:26:24] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 18:26:24] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 18:26:24] [INFO] DEBUG: DTO data: {"name":"Pepa","price":59,"image":"knedlo.jpg"}
+[2025-06-10 18:26:24] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 18:26:24] [INFO] Vytvořen produkt: Pepa
+[2025-06-10 18:27:42] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:27:42] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:27:42] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 18:27:42] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 18:27:42] [INFO] DEBUG: DTO data: {"name":"Pepa","price":59,"image":"knedlo.jpg"}
+[2025-06-10 18:27:42] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 18:27:42] [INFO] Vytvořen produkt: Pepa
+[2025-06-10 18:27:47] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:27:47] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:27:47] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 18:27:47] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 18:27:47] [INFO] DEBUG: DTO data: {"name":"admin","price":159,"image":"onas1.jpg"}
+[2025-06-10 18:27:47] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 18:27:47] [INFO] Vytvořen produkt: admin
+[2025-06-10 18:29:35] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:29:35] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:29:35] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 18:29:35] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 18:29:35] [INFO] DEBUG: DTO data: {"name":"admin","price":159,"image":"onas1.jpg"}
+[2025-06-10 18:29:35] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 18:29:35] [INFO] Vytvořen produkt: admin
+[2025-06-10 18:29:50] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:29:50] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:29:50] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 18:29:50] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 18:29:50] [INFO] DEBUG: DTO data: {"name":"admin","price":55,"image":"knedlo.jpg"}
+[2025-06-10 18:29:50] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 18:29:50] [INFO] Vytvořen produkt: admin
+[2025-06-10 18:30:22] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:30:22] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:30:22] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 18:30:22] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 18:30:22] [INFO] DEBUG: DTO data: {"name":"admin","price":159,"image":"strudl.jpg"}
+[2025-06-10 18:30:22] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 18:30:22] [INFO] Vytvořen produkt: admin
+[2025-06-10 18:30:31] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:30:31] [INFO] DEBUG: Detekováno mazání produktu s ID: 77
+[2025-06-10 18:30:31] [INFO] DEBUG: deleteProduct spuštěno s ID: 77
+[2025-06-10 18:30:31] [INFO] Smazán produkt ID: 77
+[2025-06-10 18:30:31] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:31:52] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:31:57] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:31:57] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:31:57] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 18:31:57] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 18:31:57] [INFO] DEBUG: DTO data: {"name":"\u0160t\u011bp\u00e1n Ad\u00e1mek","price":55,"image":"knedlo.jpg"}
+[2025-06-10 18:31:57] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 18:31:57] [INFO] Vytvořen produkt: Štěpán Adámek
+[2025-06-10 18:32:03] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:32:03] [INFO] DEBUG: Detekováno mazání produktu s ID: 78
+[2025-06-10 18:32:03] [INFO] DEBUG: deleteProduct spuštěno s ID: 78
+[2025-06-10 18:32:03] [INFO] Smazán produkt ID: 78
+[2025-06-10 18:32:03] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:34:03] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:34:15] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:34:15] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:34:15] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 18:34:15] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 18:34:15] [INFO] DEBUG: DTO data: {"name":"rezen","price":5000,"image":"bolognese.jpg"}
+[2025-06-10 18:34:15] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 18:34:15] [INFO] Vytvořen produkt: rezen
+[2025-06-10 18:34:25] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:36:53] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:41:53] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:43:11] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:43:55] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:43:55] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 18:43:55] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 18:43:55] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 18:43:55] [INFO] DEBUG: DTO data: {"name":"knedlicek","price":787,"image":"home-poz.jpg"}
+[2025-06-10 18:43:55] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 18:43:55] [INFO] Vytvořen produkt: knedlicek
+[2025-06-10 18:45:09] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:47:01] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:47:04] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 18:47:04] [INFO] DEBUG: Detekováno mazání produktu s ID: 79
+[2025-06-10 18:47:04] [INFO] DEBUG: deleteProduct spuštěno s ID: 79
+[2025-06-10 18:47:04] [INFO] Smazán produkt ID: 79
+[2025-06-10 18:47:04] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 20:17:47] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 20:55:19] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:11:28] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:11:43] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:11:43] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 21:11:43] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 21:11:43] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 21:11:43] [INFO] DEBUG: DTO data: {"name":"Pochoutka","price":656,"image":"burger.jpg"}
+[2025-06-10 21:11:43] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 21:11:43] [INFO] Vytvořen produkt: Pochoutka
+[2025-06-10 21:14:57] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:18:00] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:18:00] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 21:18:00] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 21:18:00] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 21:18:00] [INFO] DEBUG: DTO data: {"name":"mnammnam","price":444,"image":"churros.jpg","restaurant_id":0}
+[2025-06-10 21:18:00] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 21:19:17] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:19:25] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:19:25] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 21:19:25] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 21:19:25] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 21:19:25] [INFO] DEBUG: DTO data: {"name":"mnammnam","price":444,"image":"churros.jpg","restaurant_id":0}
+[2025-06-10 21:19:25] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 21:20:27] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:20:31] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:20:31] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 21:20:31] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 21:20:31] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 21:20:31] [INFO] DEBUG: DTO data: {"name":"mnammnam","price":444,"image":"churros.jpg","restaurant_id":0}
+[2025-06-10 21:20:31] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 21:23:12] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:23:16] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:23:16] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 21:23:16] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 21:23:16] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 21:23:16] [INFO] DEBUG: DTO data: {"name":"mnammnam","price":444,"image":"churros.jpg","restaurant_id":0}
+[2025-06-10 21:23:16] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 21:24:30] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:24:30] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 21:24:30] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 21:24:30] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 21:24:30] [INFO] DEBUG: DTO data: {"name":"mnammnam","price":444,"image":"churros.jpg","restaurant_id":0}
+[2025-06-10 21:24:30] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 21:24:30] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:24:41] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:24:43] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:24:51] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:24:51] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 21:24:51] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 21:24:51] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 21:24:51] [INFO] DEBUG: DTO data: {"name":"\u0160t\u011bp\u00e1n Ad\u00e1mek","price":55,"image":"onas1.jpg","restaurant_id":0}
+[2025-06-10 21:24:51] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 21:25:36] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:28:56] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:28:56] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 21:28:56] [INFO] DEBUG: Výsledek validace: ["Mus\u00ed\u0161 vybrat platnou restauraci."]
+[2025-06-10 21:29:06] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:29:06] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 21:29:06] [INFO] DEBUG: Výsledek validace: ["Mus\u00ed\u0161 vybrat platnou restauraci."]
+[2025-06-10 21:30:40] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:30:40] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 21:30:40] [INFO] DEBUG: Výsledek validace: ["Mus\u00ed\u0161 vybrat platnou restauraci."]
+[2025-06-10 21:35:23] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:35:23] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 21:35:23] [INFO] DEBUG: Výsledek validace: ["Mus\u00ed\u0161 vybrat platnou restauraci."]
+[2025-06-10 21:36:50] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:36:50] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 21:36:50] [INFO] DEBUG: Výsledek validace: ["Mus\u00ed\u0161 vybrat platnou restauraci."]
+[2025-06-10 21:37:00] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:37:00] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 21:37:00] [INFO] DEBUG: Výsledek validace: ["Mus\u00ed\u0161 vybrat platnou restauraci."]
+[2025-06-10 21:37:03] [INFO] DEBUG: handleRequest spuštěno
+[2025-06-10 21:37:03] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 21:37:03] [INFO] DEBUG: Výsledek validace: ["Mus\u00ed\u0161 vybrat platnou restauraci."]
+[2025-06-10 21:38:41] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 21:38:41] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 21:38:41] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 21:38:41] [INFO] DEBUG: Final restaurant_id před uložením: 2
+[2025-06-10 21:38:41] [INFO] DEBUG: DTO data: {"name":"Pepa","price":55,"image":"churros.jpg","restaurant_id":2}
+[2025-06-10 21:38:41] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 21:38:41] [INFO] Vytvořen produkt: Pepa
+[2025-06-10 21:38:50] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 21:38:50] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 21:38:50] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 21:38:50] [INFO] DEBUG: Final restaurant_id před uložením: 2
+[2025-06-10 21:38:50] [INFO] DEBUG: DTO data: {"name":"admin","price":55,"image":"knedlo.jpg","restaurant_id":2}
+[2025-06-10 21:38:50] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 21:38:50] [INFO] Vytvořen produkt: admin
+[2025-06-10 21:39:16] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 21:39:16] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 21:39:16] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 21:39:16] [INFO] DEBUG: Final restaurant_id před uložením: 1
+[2025-06-10 21:39:16] [INFO] DEBUG: DTO data: {"name":"mnammnam","price":787,"image":"tacos.jpg","restaurant_id":1}
+[2025-06-10 21:39:16] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 21:39:16] [INFO] Vytvořen produkt: mnammnam
+[2025-06-10 21:47:53] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 21:47:53] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 21:47:53] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 21:47:53] [INFO] DEBUG: Final restaurant_id před uložením: 2
+[2025-06-10 21:47:53] [INFO] DEBUG: DTO data: {"name":"haf","price":55,"image":"churros.jpg","restaurant_id":2}
+[2025-06-10 21:47:53] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 21:47:53] [INFO] Vytvořen produkt: haf
+[2025-06-10 21:48:46] [INFO] DEBUG: deleteProduct spuštěno s ID: 104
+[2025-06-10 21:48:46] [INFO] Smazán produkt ID: 104
+[2025-06-10 21:49:16] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 21:49:16] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 21:49:16] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 21:49:16] [INFO] DEBUG: Final restaurant_id před uložením: 1
+[2025-06-10 21:49:16] [INFO] DEBUG: DTO data: {"name":"admin","price":55,"image":"churros.jpg","restaurant_id":1}
+[2025-06-10 21:49:16] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 21:49:16] [INFO] Vytvořen produkt: admin
+[2025-06-10 23:22:23] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 23:22:23] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 23:22:23] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 23:22:23] [INFO] DEBUG: Final restaurant_id před uložením: 1
+[2025-06-10 23:22:23] [INFO] DEBUG: DTO data: {"name":"Nejlepsi parky","price":987,"image":"onas3.jpg","restaurant_id":1}
+[2025-06-10 23:22:23] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 23:22:23] [INFO] Vytvořen produkt: Nejlepsi parky
+[2025-06-10 23:23:25] [INFO] DEBUG: Detekováno přidání produktu
+[2025-06-10 23:23:25] [INFO] DEBUG: Výsledek validace: []
+[2025-06-10 23:23:25] [INFO] DEBUG: createProduct spuštěno
+[2025-06-10 23:23:25] [INFO] DEBUG: Final restaurant_id před uložením: 2
+[2025-06-10 23:23:25] [INFO] DEBUG: DTO data: {"name":"cotoje","price":456,"image":"onas2.png","restaurant_id":2}
+[2025-06-10 23:23:25] [INFO] DEBUG: Výsledek validace v service: []
+[2025-06-10 23:23:25] [INFO] Vytvořen produkt: cotoje

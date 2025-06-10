@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Login API test</title>
+</head>
+<body>
+  <h2>Přihlášení přes API (JWT)</h2>
+  <form id="loginForm">
+    <label>Uživatelské jméno:</label><br>
+    <input type="text" id="username" required><br><br>
+
+    <label>Heslo:</label><br>
+    <input type="password" id="password" required><br><br>
+
+    <button type="submit">Přihlásit</button>
+  </form>
+
+  <pre id="result"></pre>
+
+  <script>
+    document.getElementById('loginForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      const username = document.getElementById('username').value;
+      const password = document.getElementById('password').value;
+
+      fetch('http://localhost/Adamek/api/login_api.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password })
+      })
+      .then(res => res.json())
+      .then(data => {
+        document.getElementById('result').textContent = JSON.stringify(data, null, 2);
+      })
+      .catch(err => {
+        document.getElementById('result').textContent = 'Chyba: ' + err;
+      });
+    });
+  </script>
+</body>
+</html>
